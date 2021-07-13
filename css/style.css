@@ -19,18 +19,18 @@ body{
    line-height: 1.14;
    letter-spacing: 0.02em;
 }
-.web {
-   color: var(--accent-color);
-   font-weight: 400;
-}
+
 .logo {
-   color: var(--logo-color);
+   color: var(--accent-color);
    font-family: Raleway;
-   font-size: 26px;
    font-weight: 700;
+   font-size: 26px;
    line-height: 1.19;
    letter-spacing: 0.03em;
    text-align: left;
+}
+.studio{
+   color: var(--logo-color);
 }
 
 .nav-list {
@@ -96,17 +96,22 @@ letter-spacing: 0.03em;
 }
 .img-list {
 }
-.section {
+.section-team {
+   background: #F5F4FA;
 }
 .team-list {
 }
 .name {
    font-size: 16px;
    font-weight: 500;
-   line-height: 1.18;
+   line-height: 1.19;
    letter-spacing: 0.03em;
 }
 .position {
+   color: var(--text-color);
+   font-size: 16px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
 }
 /* main portfolio.html */
 .portfolio-section {
@@ -124,13 +129,27 @@ letter-spacing: 0.03em;
 .project-text {
 }
 /* common footer */
+.footer{
+   background: #2F303A;
+}
 .logo {
 }
-.web {
+.studio-footer {
+   color: var(--primary-white-color);
 }
 .address {
+   color: var(--primary-white-color);
+   font-style: normal;
+   line-height: 1.71;
+   letter-spacing: 0.03em;
 }
-.e-mail {
+.e-mail-footer {
+   color: var(--text-color);
+   line-height: 1.71;
+   letter-spacing: 0.03em;
 }
-.tel {
+.tel-footer {
+   color: var(--text-color);
+   line-height: 1.71;
+   letter-spacing: 0.03em;
 }
