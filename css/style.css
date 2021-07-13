@@ -81,10 +81,10 @@ body{
 }
 .features-list {
 }
-.features-title {
-font-weight: 700;
-line-height: 1.14;
-letter-spacing: 0.03em;
+   .features-title {
+   font-weight: 700;
+   line-height: 1.14;
+   letter-spacing: 0.03em;
 }
 .features-text {
    color: var(--text-color);
@@ -121,12 +121,30 @@ letter-spacing: 0.03em;
 .filter-list {
 }
 .filter-button {
+   cursor: pointer;
+   background: #F5F4FA;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1.63;
+   letter-spacing: 0.03em;
+}
+.filter-button:hover{
+   color: var(--primary-white-color);
+   background: var(--accent-color);
 }
 .project-list {
 }
 .project-title {
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 2;
+   letter-spacing: 0.06em;
 }
 .project-text {
+   color: var(--text-color);
+   font-size: 16px;
+   line-height: 1.88;
+   letter-spacing: 0.03em;
 }
 /* common footer */
 .footer{
