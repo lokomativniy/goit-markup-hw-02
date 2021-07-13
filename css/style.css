@@ -5,14 +5,16 @@
 --primary-white-color:#FFFFFF;
 --logo-color: #000000;
 }
-/* common header */
-.page-header {
+body{
+   font-family: Roboto,sans-serif;
    color: var(--primary-text-color);
    background-color: var(--primary-white-color);
 }
+/* common header */
+.page-header {
+  
+}
 .site-nav {
-   font-family: Roboto;
-   font-size: 14px;
    font-weight: 500;
    line-height: 1.14;
    letter-spacing: 0.02em;
@@ -36,28 +38,59 @@
 .link {
    color: inherit;
 }
-.link:hover{
+.link:hover,
+.e-mail:hover,
+.tel:hover{
    color: var(--accent-color);
 }
 .contacts-list {
-   color: 
 }
-.e-mail {
+.e-mail,.tel{
+   color: inherit;
 }
-.tel {
-}
+
 /* main index.html */
 .section-hero {
+   background: #2F303A;
 }
-.title-hero {
+.title-hero {  
+   color: var(--primary-white-color); 
+   font-size: 44px;
+   font-weight: 900;
+   line-height: 1.36;
+   letter-spacing: 0.06em;
+   text-align: center;
 }
+.btn {
+   color: var(--primary-white-color);
+   background: var(--accent-color);
+   font-size: 16px;
+   line-height: 1.88;
+   font-weight: 700;
+   letter-spacing: 0.06em;
+   text-align: center;
+}
+
 .section-title {
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 1.67;
+   letter-spacing: 0.03em;
+   text-align: center;
+
 }
 .features-list {
 }
 .features-title {
+font-weight: 700;
+line-height: 1.14;
+letter-spacing: 0.03em;
 }
 .features-text {
+   color: var(--text-color);
+   font-size: 14px;
+   line-height: 1.71;
+   letter-spacing: 0.03em;  
 }
 .section-img {
 }
@@ -68,10 +101,14 @@
 .team-list {
 }
 .name {
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1.18;
+   letter-spacing: 0.03em;
 }
 .position {
 }
-/* main partfolio.html */
+/* main portfolio.html */
 .portfolio-section {
 }
 .portfolio-title {
@@ -87,3 +124,13 @@
 .project-text {
 }
 /* common footer */
+.logo {
+}
+.web {
+}
+.address {
+}
+.e-mail {
+}
+.tel {
+}
