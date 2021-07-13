@@ -1,0 +1,89 @@
+:root {
+--primary-text-color:#212121 ;
+--text-color:#757575 ;
+--accent-color: #2196F3;
+--primary-white-color:#FFFFFF;
+--logo-color: #000000;
+}
+/* common header */
+.page-header {
+   color: var(--primary-text-color);
+   background-color: var(--primary-white-color);
+}
+.site-nav {
+   font-family: Roboto;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+}
+.web {
+   color: var(--accent-color);
+   font-weight: 400;
+}
+.logo {
+   color: var(--logo-color);
+   font-family: Raleway;
+   font-size: 26px;
+   font-weight: 700;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+   text-align: left;
+}
+
+.nav-list {
+}
+.link {
+   color: inherit;
+}
+.link:hover{
+   color: var(--accent-color);
+}
+.contacts-list {
+   color: 
+}
+.e-mail {
+}
+.tel {
+}
+/* main index.html */
+.section-hero {
+}
+.title-hero {
+}
+.section-title {
+}
+.features-list {
+}
+.features-title {
+}
+.features-text {
+}
+.section-img {
+}
+.img-list {
+}
+.section {
+}
+.team-list {
+}
+.name {
+}
+.position {
+}
+/* main partfolio.html */
+.portfolio-section {
+}
+.portfolio-title {
+}
+.filter-list {
+}
+.filter-button {
+}
+.project-list {
+}
+.project-title {
+}
+.project-text {
+}
+/* common footer */
